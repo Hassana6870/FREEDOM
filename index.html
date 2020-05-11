@@ -50,6 +50,23 @@ for (i = 0; i < acc.length; i++) {
  </a>
  <h3>Click on the Diagram to be directed to the <i>NASA</i> Website</h3>
  <div><img src="earthq.jpg" class="eartha"></div>
+ <h1>Moreinfo</h1>
+ <div>
+<button onclick="Moreinfo()">Right Here!</button>
+<p id="demo"></p>
+<script>
+var i = 0;
+var txt = 'Just kidding. The END!';
+var speed = 50;
+function Moreinfo() {
+if (i < txt.length) {
+document.getElementById("demo").innerHTML += txt.charAt(i);
+i++;
+setTimeout(Moreinfo, speed);
+}
+}
+</script>
+</div>
     <script src="script.js"></script>
   </body>
 </html>
