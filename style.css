@@ -2,43 +2,39 @@
   background-color: rgb(117, 182, 255);
 }
 
-.bearimg {
-  height: 150px;
-  width: 200px;
-  border: solid aquamarine 5px;
-  text-align: centered;
-  position: relative;
-  left: 150px;
+.pillar {
+  float: left;
+  width: 500px;
+  padding: 5px;
+  height: 500px;
 }
-.chartimg {
-  height: 150px;
-  width: 200px;
-  border: solid darkgray 5px;
-  position: relative;
-  left: 150px;
+.heyp::after {
+  content: "";
+  clear: both;
+  display: table;
 }
-
 .radas {
  color: blue;
- font-size: 40px;
+ font-size: 60px;
+ text-align: center;
 }
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  font-size: 25px;
 }
 li a {
   display: inline;
   display: block;
   float: left;
-  width: 150px;
+  width: 200px;
   padding: 0;
   margin: 0;
   background-color: rgba(245, 245, 220, 0.575);
   text-align: center;
-  border-radius: 85%;
   cursor: pointer;
-
+  height: 55px;
 }
 li a:hover {
   background-color: chocolate;
@@ -70,10 +66,9 @@ li a:hover {
 }
 .sourcea {
   font-size: 20px;
+  background-image: linear-gradient(to right, rgb(247, 0, 255), rgb(0, 195, 255));
 }
-body {
-  background-image: tchange.html('gb21.png');
-}
+
 .nasas {
   height: 400px;
   width: 700px;
@@ -110,3 +105,47 @@ body {
     background-color: azure;
   }
 }
+.beaut {
+      background-image: linear-gradient(to right, rgb(0, 255, 234) , rgb(0, 140, 255));
+}
+.tyui { background-image: linear-gradient(to right, #00ccff , #99ffcc);
+}
+.plm {
+    background-image: linear-gradient(to right, #00ffcc 0%, #339966 100%);
+}
+.qaz {
+    background-image: linear-gradient(to right, #0066ff 0%, #009933 100%);
+    color: azure;
+}
+.yoyo {
+  font-size: 22px;
+  background: rgba(0, 98, 128, 0.582);
+}
+.uip {
+  font-size: 20px;
+}
+.pkn {
+  font-size: 40px;
+}
+.uhb {
+  font-size: 40px;
+}
+.edc {
+  font-size: 20px;
+}
+.rfv {
+  font-size: 40px;
+}
+.vfr {
+  font-size: 20px;
+}
+.wsx {
+  font-size: 40px;
+}
+.xsw {
+  font-size: 20px;
+}
+.mnb {
+  border: teal solid 5px;
+}
+
